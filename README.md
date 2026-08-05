@@ -4,6 +4,18 @@
 
 `latex` `overleaf` `local-compile` `vscode` `latex-workshop` `olcli` `sync` `workflow`
 
+## 为什么选择 olcli？
+
+Overleaf 同步方案对比：
+
+| 方案 | 费用 | 适用场景 | 限制 |
+|------|------|---------|------|
+| **olcli** | ✅ 免费 | 个人/小团队 | 需定期刷新 cookie |
+| Git Bridge | 💰 付费 | 团队协作 | 需 Overleaf Pro |
+| 手动上传 | ✅ 免费 | 偶尔使用 | 效率低 |
+
+**推荐：olcli** — 免费、命令行友好、支持 pull/push/sync。
+
 ## 优势
 
 | 特性 | 说明 |
@@ -148,7 +160,3 @@ pdflatex --version
 ### 同步冲突
 
 如果本地和远程都有修改，使用 `olcli sync` 会自动检测冲突并提示选择。
-
-## License
-
-MIT
