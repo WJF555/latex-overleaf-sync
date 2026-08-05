@@ -1,4 +1,6 @@
-# ICRA2026 LaTeX Workflow
+# locallatex-overleaf-sync
+
+本地编译 + VS Code + Overleaf 同步的完整工作流。
 
 本地编译 + VS Code + Overleaf 同步的完整工作流。
 
@@ -114,14 +116,15 @@ olcli push "."
 ## 项目结构
 
 ```
-├── .vscode/
-│   └── settings.json        # LaTeX Workshop 配置
 ├── .gitignore               # Git 忽略规则
 ├── README.md                # 本文件
-├── conference_101719.tex    # 主 LaTeX 文件
-├── fig1.png                 # 图片
-├── IEEEtran.cls             # IEEE 模板类文件
-└── IEEEtran_HOWTO.pdf       # 模板使用说明
+└── overleaf_project/
+    ├── .vscode/
+    │   └── settings.json    # LaTeX Workshop 配置
+    ├── conference_101719.tex # 主 LaTeX 文件
+    ├── fig1.png             # 图片
+    ├── IEEEtran.cls         # IEEE 模板类文件
+    └── IEEEtran_HOWTO.pdf   # 模板使用说明
 ```
 
 ## 常见问题
