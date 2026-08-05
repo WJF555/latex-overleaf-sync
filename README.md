@@ -1,8 +1,8 @@
 # locallatex-overleaf-sync
 
-本地编译 + VS Code + Overleaf 同步的完整工作流。
+本地编译 + VS Code + Overleaf 同步的完整工作流 (with a template for ICRA latex).
 
-本地编译 + VS Code + Overleaf 同步的完整工作流。
+`latex` `overleaf` `local-compile` `vscode` `latex-workshop` `olcli` `sync` `workflow`
 
 ## 优势
 
