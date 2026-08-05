@@ -1,6 +1,6 @@
-# ICRA2026 LaTeX Workflow
+# LocalLaTeX-overleaf Sync Workflow
 
-本地编译 + VS Code + Overleaf 同步的完整工作流。
+本地编译 + VS Code + Overleaf 同步的完整工作流(with a templat with ICRA latex).
 
 ## 优势
 
