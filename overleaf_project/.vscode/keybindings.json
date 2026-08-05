@@ -1,0 +1,8 @@
+{
+    "key": "ctrl+alt+u",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+        "text": "python upload_to_overleaf.py\n"
+    },
+    "when": "editorTextFocus && resourceExtname == .tex"
+}

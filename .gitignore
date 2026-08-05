@@ -1,0 +1,43 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.pdf
+*.synctex.gz
+*.synctex(busy)
+*.synctex.gz(busy)
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+
+# olcli config (contains project ID)
+.olcli.json
+
+# Debug scripts
+debug_*.py
+page_source.html
+folder_info.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code (keep settings.json for LaTeX Workshop config)
+# .vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
