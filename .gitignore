@@ -25,6 +25,9 @@
 # olcli config (contains project ID)
 .olcli.json
 
+# Private paper files
+overleaf_project/conference_101719.tex
+
 # Debug scripts
 debug_*.py
 page_source.html
