@@ -50,6 +50,23 @@ Overleaf 同步方案对比：
 
 ## 环境配置
 
+> 不想手动一步步配置？直接使用下方 **一键部署** 即可完成 步骤 1-4。
+
+### 0. 一键部署 (推荐, Linux/macOS)
+
+只需安装 Node.js（https://nodejs.org/ LTS），然后：
+
+```bash
+# 1. 克隆本仓库
+git clone <仓库地址>
+cd <项目文件夹>
+
+# 2. 运行一键部署脚本 (自动安装 olcli)
+bash setup.sh
+```
+
+完成后继续 [5. 认证 Overleaf](#5-认证-overleaf) 即可开始使用。
+
 ### 1. 安装 TeX Live
 
 ```bash
@@ -98,6 +115,8 @@ pdflatex --version
 ```
 
 ### 4. 安装 olcli (Overleaf CLI)
+
+> 使用一键部署脚本 `bash setup.sh` 可自动完成本步骤。
 
 ```bash
 npm install -g @aloth/olcli
@@ -153,6 +172,7 @@ olcli push "."
 ```
 ├── .gitignore               # Git 忽略规则
 ├── README.md                # 本文件
+├── setup.sh                  # 一键部署脚本 (Linux/macOS)
 └── overleaf_project/
     ├── .vscode/
     │   └── settings.json    # LaTeX Workshop 配置
